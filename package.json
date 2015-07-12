@@ -1,0 +1,23 @@
+{
+  "name": "ran",
+  "version": "0.0.1",
+  "description": "Cmd-Tool to run any node.js task anywhere",
+  "homepage": "https://github.com/fritx/ran",
+  "keywords": [
+    "ran",
+    "run",
+    "task",
+    "anywhere"
+  ],
+  "bin": {
+    "ran": "bin/ran.js"
+  },
+  "scripts": {
+    "install": "node install.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "fs-extra": "^0.22.1",
+    "user-home": "^2.0.0"
+  }
+}
